@@ -1,11 +1,11 @@
 const app = "I don't do much."
 
-function destructivelyAppendKittens(list,felix) {
+function destructivelyAppendKitten(list,felix) {
   list.push(felix);
   return list;
 }
 
-function destructivelyPrependKittens(list,felix) {
+function destructivelyPrependKitten(list,felix) {
   list.unshift(felix);
   return list;
 }
