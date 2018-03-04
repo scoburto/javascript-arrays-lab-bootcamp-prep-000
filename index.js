@@ -21,17 +21,21 @@ function destructivelyRemoveFirstKitten() {
 }
 
 function appendKitten(felix) {
-  
+  var newList = [...kittens,felix]
+  return newList;
 }
 
 function prependKitten(felix) {
-  
+  var newList = [felix,...kittens]
+  return newList;
 }
 
 function removeFirstKitten() {
-  
+  var newList = kittens.slice(1);
+  return newList;
 }
 
 function removeLastKitten() {
-  
+  var newList = kittens.slice(0,kittens.length-1);
+  return newList;
 }
