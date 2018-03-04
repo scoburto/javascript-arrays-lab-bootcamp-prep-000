@@ -1,21 +1,21 @@
 const app = "I don't do much."
 
-function destructivelyAppendKitten(list,felix) {
-  list.push(felix);
-  return list;
+function destructivelyAppendKitten(felix) {
+  kittens.push(felix);
+  return kittens;
 }
 
-function destructivelyPrependKitten(list,felix) {
-  list.unshift(felix);
-  return list;
+function destructivelyPrependKitten(felix) {
+  kittens.unshift(felix);
+  return kittens;
 }
 
-function destructivelyRemoveLastKitten(list) {
-  list.pop();
-  return list;
+function destructivelyRemoveLastKitten() {
+  kittens.pop();
+  return kittens;
 }
 
-function destructivelyRemoveFirstKitten(list) {
-  list.shift();
-  return list;
+function destructivelyRemoveFirstKitten() {
+  kittens.shift();
+  return kittens;
 }
