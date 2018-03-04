@@ -23,3 +23,15 @@ function destructivelyRemoveFirstKitten() {
 function appendKitten(felix) {
   
 }
+
+function prependKitten(felix) {
+  
+}
+
+function removeFirstKitten() {
+  
+}
+
+function removeLastKitten() {
+  
+}
